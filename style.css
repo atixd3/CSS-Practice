@@ -1,0 +1,43 @@
+div {
+  transition: background-color 500ms;
+}
+div:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+img {
+transform: translateY(100px);
+  font-size: 60px;
+  position: relative;
+  left: 450px;
+  top: -98px;
+  width: 100%;
+  max-width: 1000px;
+  background-color: red }
+  img:hover {
+    border: 10px solid black;
+  }
+  
+  @keyframes float {
+      0% {
+          transform: translateY(0);
+        }
+        100% {
+        }
+    }
+    .atixserver {
+        transform: translateY(100px);
+        background-color: rgba(0, 0, 0, 0.4);
+        animation: float 2000ms infinite alternate-reverse;
+        display:flex;
+
+  }
+  .atixserver:hover {
+    background-color:rgba(0, 0, 0, 0.8)
+  }
+  .nav__link {
+    color: black
+  }
+  .nav__link--active {
+    color:purple;
+    font-weight: bold;
+  }
